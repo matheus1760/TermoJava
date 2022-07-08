@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="215dcaff-6ee5-480a-bd38-7a797a8fc78b" name="Changes" comment="Atualizado o workspace.xml">
+    <list default="true" id="215dcaff-6ee5-480a-bd38-7a797a8fc78b" name="Changes" comment="Adicionados objetivos/requisitos no README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +82,8 @@
       <workItem from="1657292611275" duration="1474000" />
       <workItem from="1657294164802" duration="1438000" />
       <workItem from="1657295977080" duration="613000" />
+      <workItem from="1657298934278" duration="582000" />
+      <workItem from="1657299618602" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1657284413540</created>
@@ -131,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657295625762</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionados objetivos/requisitos no README.md">
+      <created>1657299384349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657299384349</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adicionados objetivos/requisitos no README.md">
+      <created>1657299506702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657299506702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +171,8 @@
     <MESSAGE value="Criada a classe DensidadeEmKgPorMetroCubico para maior abstração da classe Materia, ou seja, em vez de utilizar peso e volume como atributos, agora a densidade é um deles" />
     <MESSAGE value="Criada a classe Materia, a mais complexa até o momento. Contendo quase todos os atributos de &quot;uma&quot; matéria, seus comportamentos e construtor no contexto da termodinâmica" />
     <MESSAGE value="Atualizado o workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizado o workspace.xml" />
+    <MESSAGE value="Adicionados objetivos/requisitos no README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionados objetivos/requisitos no README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
