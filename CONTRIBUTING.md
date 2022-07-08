@@ -8,6 +8,7 @@ Todas as contribuições são bem-vindas e terão a possibilidade de serem integ
 4) Escrever o futuro atributo descricaoAdicional para cada cientista (objeto) da Classe Cientistas em arquivo.txt
 5) Escrever principais fórmulas da termodinâmica e para que servem em outro arquivo.txt
 6) Adicionar cada classe e explicá-la em um contexto físico, e não programável, no README.md
+7) Adicionar javadocs para cada classe
 
 ### Permanentes (FURPS):
 #### Funcionalidade:
@@ -15,16 +16,14 @@ Todas as contribuições são bem-vindas e terão a possibilidade de serem integ
   problemas)
 - Reusabilidade (Compatível com JDK 8 e versões posteriores)
 ### Usabilidade:
-- Fatores Humanos (Aviso sobre medidas)
+- Fatores Humanos (Aviso sobre medidas (variáveis que usam Kg/°C, por exemplo))
 - Estética (Arte Ascii)
 - Consistência (Seguir convenções de código java, nunca fechar chaves na mesma linha, pular linha entre definições
   de variáveis, declarações e uso de métodos/funções)
 - Documentação (Documentação detalhada, javadocs para todas as classes e pacotes)
 ### Confiabilidade:
 - Frequência de erros (Erros mínimos, testes constantes não regularizados antes de novas implementações)
-- Resiliência (Resistência à exceptions, gerenciamento de erros e diminuição de impactos)
-- Estabilidade (Resultados de testes de performance não devem ser muito diferentes, Teste de frequência de erros (> 
-  98%))
+- Resiliência (Resistência à NullExceptions, gerenciamento de erros e diminuição de seus impactos)
 ### Performance: Sem requisitos
 ### Capacidade de suporte:
 - Manutenção (correção de bugs toda semana)
