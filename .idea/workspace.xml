@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="215dcaff-6ee5-480a-bd38-7a797a8fc78b" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CientistasTermodinamicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DensidadeEmKgPorMetroCubico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Materia.java" afterDir="false" />
+    <list default="true" id="215dcaff-6ee5-480a-bd38-7a797a8fc78b" name="Changes" comment="Atualizado o workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/mlisboa/IdeaProjects/TermoJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mlisboa/IdeaProjects/TermoJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TestaMateria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestaMateria" />
@@ -83,7 +79,8 @@
       <workItem from="1657283945119" duration="762000" />
       <workItem from="1657284785817" duration="7665000" />
       <workItem from="1657292611275" duration="1474000" />
-      <workItem from="1657294164802" duration="974000" />
+      <workItem from="1657294164802" duration="1438000" />
+      <workItem from="1657295977080" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1657284413540</created>
@@ -106,7 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1657284844860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionada classe CientistasTermodinamicos para guardar, criar e retornar as histórias dos cientistas do ramo">
+      <created>1657295447447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657295447447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Criada a classe DensidadeEmKgPorMetroCubico para maior abstração da classe Materia, ou seja, em vez de utilizar peso e volume como atributos, agora a densidade é um deles">
+      <created>1657295503817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657295503817</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Criada a classe Materia, a mais complexa até o momento. Contendo quase todos os atributos de &quot;uma&quot; matéria, seus comportamentos e construtor no contexto da termodinâmica">
+      <created>1657295582517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657295582517</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Atualizado o workspace.xml">
+      <created>1657295625762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657295625762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +150,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Adicionada classe CientistasTermodinamicos para guardar, criar e retornar as histórias dos cientistas do ramo" />
+    <MESSAGE value="Criada a classe DensidadeEmKgPorMetroCubico para maior abstração da classe Materia, ou seja, em vez de utilizar peso e volume como atributos, agora a densidade é um deles" />
+    <MESSAGE value="Criada a classe Materia, a mais complexa até o momento. Contendo quase todos os atributos de &quot;uma&quot; matéria, seus comportamentos e construtor no contexto da termodinâmica" />
+    <MESSAGE value="Atualizado o workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizado o workspace.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
